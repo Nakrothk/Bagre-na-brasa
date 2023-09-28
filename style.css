@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;500;900&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -33,12 +33,13 @@ body{
   display: flex;
   justify-content:left;
   border-bottom: solid 2px #026df8 ;
-  
   padding-bottom: 30px;
   background-color: #000;
   opacity: 0.80;
 }
-
+.trabalhe{
+  font-size: 20px;
+}
 .imagemfundoc{
   display: none;
 }
@@ -58,6 +59,11 @@ margin-top: 20px;
   width: 100px;
 }
 
+
+.textologo{
+  font-size: 40px;
+  color: #ffffff;
+}
 .menu{
 width: 70%;
 display: flex;
@@ -182,7 +188,7 @@ justify-content: center;
   border-radius: 40px;
 }
 
-div a:hover{
+.menu a:hover{
  transform: scale(1.1,1.1);
  transition: 1s;
 }
@@ -221,6 +227,9 @@ div a:hover{
     justify-self: center;
     
   }
+  .textologo{
+    font-size: 7vh;
+  }
   .cima{
     height: auto;
     display: block;
@@ -238,8 +247,11 @@ div a:hover{
   .imagem{
     display: none;
   }
+  .trabalhe{
+    font-size: 4vw;
+  }
   a{
-    font-size: 5vw;
+    font-size: 3.5vw;
   }
   .titulo-principal{
     font-size: 8vw;
@@ -279,6 +291,9 @@ div a:hover{
     margin: 0 0 0 0;
     
   }
+  .textologo{
+    font-size: 4vh;
+  }
   .assunto-pequeno{
     margin-left: 10px;
     font-size: 3vh;
@@ -297,7 +312,7 @@ div a:hover{
     transform: scale(1.1,1.1);
     transition: 1s;
    }
-}
+   
 
 
   
