@@ -81,14 +81,14 @@ filter: brightness(0.40);
 }
 h2{
   font-family: 'lobster', cursive;
-  font-size: 5vw;
+  font-size: 50px;
   padding-bottom: 1vw;
 }
 .txt1 {
   font-family: ;
   font-size: 25px;
 }
-.politica{
+.politicap{
   color: #026df8;
   font-size: 20px;
 }
@@ -108,31 +108,31 @@ strong{
 }
 input[type=text] {
   width: 60%;
-  padding: 10px 16px;
+  padding: 5px 13px;
   margin: 10px 0;
   box-sizing: border-box;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: bold;
-  margin-left: 1vw;
+  margin-left: 2vw;
 }
 .cargo{
   width: auto;
   max-width: 40%;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
-  padding: 14px 20px;
+  padding: 10px 20px;
   margin: 8px 0;
   border: solid #000 1px;
   border-radius: 4px;
   cursor: pointer;
   font-size: 15px;
   font-weight: bold;
-  margin-left: 1vw;
+  margin-left: 2vw;
 }
 label{
   font-size: 20px;
   font-weight: bold;
-  margin-left: 1vw;
+  margin-left: 2vw;
 }
 input[type=file] {
   width: 60%;
@@ -142,9 +142,51 @@ input[type=file] {
   font-size: 20px;
   font-weight: bold;
   margin-right: 10px;
+  margin-top:20px;
+  
+}
+.dor{
+  display: flex;
+  margin-top: 10px;
+}
+.labelcoment{
+width: 20%;
+
+}
+.comentario{
+ height: 6vw;
+ width: 50%;
+ margin-left: 2vw;
+ font-size: 18PX;
+ font-weight: bolder;
+ padding: 5px 5px;
+
+}
+.enviar{
+justify-content: flex-end;
+}
+input[type=submit] {
+  cursor: pointer;
+  border: solid #026df8 3px;
+  color: #ffffff;
+  background: #026df8;
+  width: 20%;
+  padding: 5px 13px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 2vw;
+}
+input[type=submit]:hover{
+  color: #026df8;
+  background: transparent;
+  border: solid 3px #026df8;
+  transition: 1s;
+  transform: scale(1.1,1.1);
 }
 .wzap{
-  width: 40px;
+  width: 10vw;
   position: fixed;
     display: block;
     top: 150px;
@@ -155,6 +197,66 @@ input[type=file] {
     background-size: cover;
     z-index: 9999;
 }
+.footer{
+  width: 100%;
+  background-color: #002a85;
+  height: auto ;
+  display: flex;
+  padding: 20px 25px;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.horario{
+  width: 30%;
+  margin-left: 2vw;
+}
+.emailbaixo{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  
+}
+.socials{
+  width: 25%;
+}
+form input[type=email]{
+  width: 40%;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+form input[type=button]{
+  width: 20%;
+  font-size: 15px;
+  background-color: #000;
+  color: #ffffff;
+  border: solid #000000 1px;
+  border-radius: 50px;
+}
+.politica{
+font-size: 17px;
+color: #ffffff;
+cursor: pointer;
+}
+.sociais{
+  margin-top: 20px;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+ul a img{
+  width: 50px;
+  
+}
+ul a img{
+  
+}
+.mapa{
+  width: 30%;
+}
+
 
 
 
@@ -195,7 +297,7 @@ input[type=file] {
       font-size: 3.5vw;
     }
     h2{
-      font-size: 6vw;
+      font-size: 5vh;
     }
     .main2 {
       font-size: 2vw;
@@ -203,5 +305,32 @@ input[type=file] {
     input[type=file]{
       width: 100%;
     }
+  
+  .comentario{
+    width: 80%;}
+  
+  input[type=submit]{
+width: 80%;
   }
+  .footer{
+    display: grid;
+  }
+  .horario{
+    width: 90%;
     
+  }
+  .horario p{
+    font-size: 1vw;
+  }
+  .socials{
+    width: 90%;
+    margin-bottom: 20px;
+    justify-content:space-evenly
+  }
+  
+  .mapa{
+    width: 90%;
+  }
+
+
+}

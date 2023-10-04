@@ -38,7 +38,7 @@
 <h5>
  <p>Para o registro do seu interesse nas vagas do Bagre na brasa, será necessária a coleta dos dados conforme formulário abaixo. Esses dados e o seu currículo permanecerão na nossa base de candidatos e, havendo vaga que estejam alinhadas com as suas características, entraremos em contato.</p> 
 <br>
-<p>Encaminhando o formulário, você declara estar ciente sobre a utilização e tratamento dos dados de acordo com a <a class="politica" href="">Política de Privacidade</a> do restaurante bagre na brasa.</p>
+<p>Encaminhando o formulário, você declara estar ciente sobre a utilização e tratamento dos dados de acordo com a <a class="politicap" href="">Política de Privacidade</a> do restaurante bagre na brasa.</p>
 <br><br>
 </h5>
   </div>
@@ -58,7 +58,7 @@
   <main class="main2">
 <div class="nome"><input placeholder="Seu nome" type="text"></div>
 <div class="email"><input placeholder="Seu e-mail" type="text"></div>
-<divclass="email"><input placeholder="Seu telefone" type="text"></div>
+<div class="email"><input placeholder="Seu telefone" type="text"></div>
 <div><label for="cargo">Cargo</label>
   <select class="cargo" id="cargo" name="cargo">
     <option value="Recepsionista">Recepsionista</option>
@@ -67,11 +67,65 @@
     <option value="Administração">Administração</option>
     <option value="TI">TI</option>
   </select></div>
-<div><label for="Anexe seu curriculo">Anexe Seu Curriculo
-<input type="file" name="curriculo" id="curriculo" >
-</label></div>
-<div></div>
-<div></div>
+    <div><label for="Anexe seu curriculo">Anexe Seu Curriculo
+      <input type="file" name="curriculo" id="curriculo" >
+      <div class="dor"></div>
+      </label></div>
+      <div><label class="labelcoment">Comentario</label></div>
+      <textarea class="comentario" rows="5"></textarea>
+  </div>
+  <div class="enviar"><input type="submit" onclick="funcao1()"  ></div>
   </main>
+  <footer class="footer">
+    <div class="horario">
+      <h3>E-MAIL</h3>
+        <a class="emailbaixo" href="">contato@bagranabrasa.com.br</a>
+        <br .>
+        <h3>HORÁRIO DE FUNCIONAMENTO</h3>
+        <br .>
+        <h3>RODÍZIO</h3>
+        <br>
+        <h3>ALMOÇO</h3>
+        
+        <h4>De terça a sexta: 11h15 às 15h
+          Sábado e feriado: 11h15 às 15h30
+          Domingo: 11h15 às 16h</h4>
+        <br>
+        <h3>JANTAR</h3>
+        
+        <h4>De terça a sábado: 18h30 às 22h30</h4>
+        </div>
+    <div class="socials">
+      <h4>Endereço</h4>
+      <p>Avenida dos peixes,69,83560-999, Curitiba</p>
+      <br>
+      <br>
+      <h4>NEWSLETTER</h4>
+      <p>Cadastre-se e receba nossas promoções</p>
+      <form id="formularioNewsletter">
+        <input id="emailTxt" type="email"  name="email" placeholder="Digite seu e-mail">
+        <input type="button" value="Enviar" onclick="javascript:EnviaNewsletter()">
+        <br>
+        <div id="noticeNewsletter"></div>
+        <br>
+        <input id="politicaCB" type="checkbox" value="1" class="aceite" name="aceite"> 
+        Li e aceito a <a href="/politica-de-privacidade" target="_blank" class="politica">política de privacidade</a><a>.
+      
+      </a></form>
+      <ul class="sociais"><a href="" target="_blank">
+        <img src="imagens/facebook (1).png" alt="">
+      </a>
+      <a href="">
+        <img src="imagens/logotipo-do-instagram.png" alt="">
+      </a>
+        <a href="">
+        <img src="imagens/whatsapp (1).png" alt="">
+        </a>
+      </ul>
+    </div>
+    <div class="mapa">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.135198963712!2d-49.278140024427096!3d-25.43374313304017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce472e85bb7eb%3A0x78328b9f96a47e4d!2sUniversidade%20Positivo%20-%20Pra%C3%A7a%20Os%C3%B3rio!5e0!3m2!1spt-BR!2sbr!4v1696455028473!5m2!1spt-BR!2sbr" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </footer>
 </body>
 </html>
