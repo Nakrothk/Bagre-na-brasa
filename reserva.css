@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #000000;
+  overflow-x: hidden;
+}
+
+.imagemfundo {
+  position: absolute;
+  top: 0;
+  margin-left: 1px;
+  left: 0;
+  z-index: -1;
+  background-color: #000000;
+  opacity: 0.54;
+}
+
+.oi {
+  background-color: #000;
+}
+
+.cima {
+  height: auto;
+  display: flex;
+  justify-content: left;
+  border-bottom: solid 2px #026df8;
+  padding-bottom: 30px;
+  background-color: #000;
+  opacity: 0.80;
+}
+
+.trabalhe {
+  font-size: 20px;
+}
+
+.imagemfundoc {
+  display: none;
+}
+
+.logotipo {
+  width: 30%;
+  display: flex;
+  place-items: center;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 50PX;
+  font-family: Impact;
+  color: #ffffff;
+  margin-top: 20px;
+
+}
+
+.logopeixe {
+  width: 100px;
+}
+
+
+.textologo {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.menu {
+  width: 70%;
+  display: flex;
+  place-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 28px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #469CF7;
+  font-size: 30px;
+}
+
+.reserva {
+  text-decoration: underline;
+}
+
+.menu a:hover {
+  transform: scale(1.1, 1.1);
+  transition: 1s;
+}
+
+main {
+  height: 1200px;
+  font-family: 'Quicksand';
+}
+
+main .titulo {
+  display: block;
+  text-align: center;
+  margin: 10px 10% 50px 10%;
+}
+
+main .titulo h1 {
+  text-align: center;
+  font-size: 70px;
+  margin-top: 2%;
+  font-weight: bold;
+  color: #fff;
+}
+
+main p {
+  text-align: center;
+  font-size: 1.7rem;
+  color: #fff;
+  margin-top: 40px;
+}
+
+#formreserva {
+  background-color: rgba(170, 170, 170, 0.301);
+  margin-inline: 30%;
+  border-radius: 40px;
+  height: 950px;
+  padding: 5px;
+  border: rgba(255, 255, 255, 0.377) solid;
+  text-align: center;
+  box-shadow: #000 1px 1px 20px 1px;
+}
+
+input::placeholder {
+  font-size: 19px;
+  justify-content: center;
+}
+
+#nome {
+  margin-top: 10px;
+  font-size: 80%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#telefone {
+  margin-top: 10px;
+  font-size: 80%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#eemail {
+  margin-top: 10px;
+  font-size: 80%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#data {
+  margin-top: 10px;
+  margin-block: 15px;
+  font-size: 80%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#reservabtt {
+  background-image: white;
+  font-size: 30px;
+  margin-top: 30px;
+  font-family: 'Quicksand';
+  width: 120px;
+  box-shadow: #000 1px 1px 4px 1px;
+  transition: all 0.4s;
+}
+
+#reservabtt:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+
+
+@media (max-width: 1250px) {
+  html {}
+
+  .imagemfundoc {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 30vw;
+    margin-left: 1px;
+    left: 0;
+    z-index: -1;
+    background-color: #000000;
+    opacity: 0.54;
+  }
+
+  .imagemfundo {
+    display: none;
+  }
+
+  header .cima {
+    width: max-content;
+    justify-self: center;
+
+  }
+
+  .textologo {
+    font-size: 7vh;
+  }
+
+  .cima {
+    height: auto;
+    display: block;
+    justify-content: center;
+    opacity: 0.9;
+  }
+
+  .logotipo {
+
+    width: 100%;
+  }
+
+  .menu {
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .imagem {
+    display: none;
+  }
+
+  .trabalhe {
+    font-size: 4vw;
+  }
+
+  a {
+    font-size: 3.5vw;
+  }
+
+  .logotipo {
+    font-size: 10vw;
+  }
+}
+
+@media (max-width: 830px) {
+  #formreserva {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 650px) {
+  .imagemfundoc {
+    display: none;
+
+  }
+
+  .titulo-principal {
+    margin-left: 10px;
+    font-size: 10vw;
+  }
+
+  .meio-tela {
+    width: 100%;
+
+  }
+
+  .titulo-principal {
+    width: 100%;
+  }
+
+  .assunto {
+    width: 95%;
+    margin: 0 0 0 0;
+
+  }
+
+  .textologo {
+    font-size: 4vh;
+  }
+
+  .assunto-pequeno {
+    margin-left: 10px;
+    font-size: 3vh;
+  }
+
+  .nome input {
+    width: 85%;
+    margin-left: 10px;
+  }
+
+  .enviar {
+    width: 40%;
+    margin-left: 10px;
+  }
+
+  div a:hover {
+    transform: scale(1.1, 1.1);
+    transition: 1s;
+  }
+
+  main {
+    text-align: center;
+  }
+
+  main .titulo h1 {
+    font-size: 30px;
+  }
+
+  main p {
+    font-size: 20px;
+  }
+
+  #formreserva {
+    width: 180px;
+    height: 850px;
+    margin-left: 20px;
+  }
+
+  #nome {
+    font-size: 40%;
+  }
+
+  #telefone {
+    font-size: 40%;
+  }
+
+  #eemail{
+    font-size: 40%;
+  }
+
+  #lugar {
+    font-size: 20%;
+  }
+
+  #data {
+    font-size: 50%;
+  }
+  #reservabtt {
+    font-size: 20px;
+  }
+}
