@@ -85,7 +85,6 @@ h2{
   padding-bottom: 1vw;
 }
 .txt1 {
-  font-family: ;
   font-size: 25px;
 }
 .politicap{
@@ -250,18 +249,9 @@ ul a img{
   width: 50px;
   
 }
-ul a img{
-  
-}
 .mapa{
   width: 30%;
 }
-
-
-
-
-
-
   @media (max-width: 1250px){
    
    
